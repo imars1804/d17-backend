@@ -1,0 +1,20 @@
+[
+    {
+      "id": "mensajes",
+      "mensajes": [
+        {
+          "email": "lalilupinacci@gmail.com",
+          "author": {
+          "id": "lalilupinacci@gmail.com",
+          "nombre": "Lali",
+          "apellido": "Lupinacci",
+          "edad": "0",
+          "alias": "lalilupinacci",
+          "avatar": "https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2023/03/One-Piece-Yamato-se-vuelve-la-oiran-mas-hermosa-en-una-nueva-ilustracion-del-autor.jpg?resize=1280%2C720&quality=80&ssl=1"
+          },
+          "text": "Cada dia mas cerca de perder la cabeza, lo normal",
+          "date": "20/10/2000 00:00:00"
+        }
+      ]
+    }
+]
