@@ -34,7 +34,9 @@ const opts = {
 
 await init()
 
-const { port: PORT, mode } = minimist(process.argv.slice(2), opts);
+// const { port: PORT, mode } = minimist(process.argv.slice(2), opts);
+const PORT = process.env.PORT || 8080;
+const mode = process.env.MODE || 'fork';
 
 if (mode === 'cluster' && cluster.isPrimary) {
     for (let i = 0; i < os.cpus().length; i++) {
